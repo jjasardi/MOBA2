@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Navibar Demo</title>
+
+  <script src="navibar.js"></script>
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    navigation-bar {
+      width: 100vw;
+      height: 10vw;
+      position: fixed;
+      bottom: 0;
+      /* ... */
+    }
+
+    navigation-bar a img { /* targets <img> elements within <a> elements within the <navigation-bar> */
+      opacity: 0.3;
+      width: 6vw;
+      height: 6vw;
+      /* ... */
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <navigation-bar>
+    <a href="#"><img src="imgs/settings.png" alt="Image 1"></a>
+    <a href="#"><img src="imgs/coffee.png" alt="Image 2"></a>
+    <a href="#"><img src="imgs/map.png" alt="Image 3"></a>
+    <a href="#"><img src="imgs/home.png" alt="Image 4"></a>
+  </navigation-bar>
+
+</body>
+
+</html>
